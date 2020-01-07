@@ -6,4 +6,4 @@ from leads.models import Lead
 class LeadSerializer(serializers.ModelSerializer):
     class Meta:
         model = Lead
-        fiedss = "__all__"
+        fields = ['id','name', 'email', 'message']
