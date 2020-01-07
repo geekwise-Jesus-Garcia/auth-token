@@ -1,0 +1,9 @@
+## python pipenv
+.env
+.venv
+env/
+venv/ 
+.vscode
+## gitpod
+.theia
+/node_modules
